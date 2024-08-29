@@ -32,6 +32,11 @@ function Navbar() {
     };
   }, []);
 
+  const handleContactClick = (e) => {
+    e.preventDefault(); // Prevent the default form submission
+    window.location.href = "mailto:akandeayomidotun444@gmail.com";
+  };
+
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
@@ -85,7 +90,7 @@ function Navbar() {
           </ul>
 
           <form className="d-flex ms-auto">
-            <button className="nav-btn" type="submit">
+            <button onClick={handleContactClick} className="nav-btn" type="submit">
               Contact Us
             </button>
           </form>
