@@ -11,6 +11,7 @@ function TermContent() {
     },
     { id: "Sharing your Information", title: "Sharing your Information" },
     { id: "Data Security", title: "Data Security" },
+    { id: "Non Refund Policy", title: "Non Refund Policy" },
     { id: "Your Choices", title: "Your Choices" },
     { id: "Children's Privacy", title: "Children's Privacy" },
     {
@@ -114,8 +115,23 @@ function TermContent() {
           </p>
         </div>
 
+        <div id="Non Refund Policy" className="section">
+          <h2>6. Non Refund Policy</h2>
+          <ul>
+            <li>
+              {" "}
+              No Refunds: All payments made to the App are non-refundable. 
+              This includes but is not limited to subscription fees, one-time purchases, and any other charges associated with the use of the App.
+            </li>
+            <li>
+              Subscription Cancellations: You may cancel your subscription at any time. Upon cancellation, your access to premium features will
+               continue until the end of the current billing cycle. No refunds, partial or otherwise, will be issued for any remaining subscription period.
+            </li>
+          </ul>
+        </div>
+
         <div id="Your Choices" className="section">
-          <h2>6. Your Choices</h2>
+          <h2>7. Your Choices</h2>
           <ul>
             <li>
               {" "}
@@ -135,7 +151,7 @@ function TermContent() {
         </div>
 
         <div id="Children's Privacy" className="section">
-          <h2>7. Children's Privacy</h2>
+          <h2>8. Children's Privacy</h2>
           <p>
             The App is not intended for children under the age of 13. We do not
             knowingly collect personal information from children under 13. If we
@@ -145,7 +161,7 @@ function TermContent() {
         </div>
 
         <div id="Changes to This Privacy Policy" className="section">
-          <h2>8. Changes to This Privacy Policy</h2>
+          <h2>9. Changes to This Privacy Policy</h2>
           <p>
             We may update this Privacy Policy from time to time. We will notify
             you of any significant changes by posting the updated policy in the
@@ -156,7 +172,7 @@ function TermContent() {
         </div>
 
         <div id="contact" className="section">
-          <h2>9. Contact Information</h2>
+          <h2>10. Contact Information</h2>
           <p>
             If you have any questions or concerns about these Terms, please
             contact us at:
