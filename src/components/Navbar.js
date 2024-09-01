@@ -34,7 +34,7 @@ function Navbar() {
 
   const handleContactClick = (e) => {
     e.preventDefault(); // Prevent the default form submission
-    window.location.href = "mailto:akandeayomidotun444@gmail.com";
+    window.location.href = "mailto:frebson.ivs@gmail.com";
   };
 
   return (

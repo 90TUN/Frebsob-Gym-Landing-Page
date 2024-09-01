@@ -17,10 +17,10 @@ function Footer() {
               />
               <div className="freb-contact">
                 <p>
-                  Email address: <br /> <br /> <span>info@hauliiin.com</span>{" "}
+                  Email address: <br /> <br /> <span>frebson.ivs@gmail.com</span>{" "}
                 </p>
                 <p>
-                  Phone number: <br /> <br /> <span> +2348012345678</span>
+                  Phone number: <br /> <br /> <span> 08034947725</span>
                 </p>
               </div>
             </div>
@@ -57,28 +57,15 @@ function Footer() {
           {/* Social Media Icons */}
           <div>
             <div className="socials">
-              <a href="#" className="text-light mx-2">
+              <a href="https://www.instagram.com/frebsonfitness?igsh=ajdiZXFwZGUyZG4y" className="text-light mx-2">
                 <img
                   className="img-fluid"
                   src={`${process.env.PUBLIC_URL}/images/instagram.png`}
                   alt=""
                 />
               </a>
-              <a href="#" className="text-light mx-2">
-                <img
-                  className="img-fluid"
-                  src={`${process.env.PUBLIC_URL}/images/youtube.png`}
-                  alt=""
-                />
-              </a>
-              <a href="#" className="text-light mx-2">
-                <img
-                  className="img-fluid"
-                  src={`${process.env.PUBLIC_URL}/images/twitter.png`}
-                  alt=""
-                />
-              </a>
-              <a href="#" className="text-light mx-2">
+          
+              <a href="https://www.facebook.com/frebsonfitness?mibextid=ZbWKwL" className="text-light mx-2">
                 <img
                   className="img-fluid"
                   src={`${process.env.PUBLIC_URL}/images/facebook.png`}
