@@ -12,7 +12,7 @@ function Footer() {
           <div className="col-md-6 col-sm-12">
             <div className="contact-info">
               <img
-                src={`${process.env.PUBLIC_URL}/images/footer-img.png`}
+                src={`${process.env.PUBLIC_URL}/images/frebson2-logo.png`}
                 alt=""
               />
               <div className="freb-contact">
