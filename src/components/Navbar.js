@@ -41,7 +41,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src={`${process.env.PUBLIC_URL}/images/frebson2-logo.png`} alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/images/frebson-logo.png`} alt="Logo" />
         </Link>
 
         <button
