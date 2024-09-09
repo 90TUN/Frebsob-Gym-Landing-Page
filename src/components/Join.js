@@ -16,14 +16,14 @@ function Join() {
 
         <div className="d-flex justify-content-center">
           <div className="download" style={{ paddingBottom: "40px" }}>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://drive.google.com/drive/folders/1jR9HXpdCZAiCxRhAzDZ-DEaokwojUJrr?usp=drive_link">
               <img
                 className="img-fluid"
                 src={`${process.env.PUBLIC_URL}/images/google-play.png`}
                 alt="Google Play"
               />
             </a>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://apps.apple.com/ng/app/com.frebsongym.mobile/id6587570203">
               <img
                 className="img-fluid"
                 src={`${process.env.PUBLIC_URL}/images/app-store.png`}

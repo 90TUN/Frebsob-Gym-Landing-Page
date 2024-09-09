@@ -33,14 +33,14 @@ function Footer() {
                 We are making gym exercise the easiest thing you have ever done
               </p>
               <div className="download">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="https://drive.google.com/drive/folders/1jR9HXpdCZAiCxRhAzDZ-DEaokwojUJrr?usp=drive_link">
                   <img
                     className="img-fluid"
                     src={`${process.env.PUBLIC_URL}/images/google-play.png`}
                     alt=""
                   />
                 </a>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="https://apps.apple.com/ng/app/com.frebsongym.mobile/id6587570203">
                   <img
                     className="img-fluid"
                     src={`${process.env.PUBLIC_URL}/images/app-store.png`}
