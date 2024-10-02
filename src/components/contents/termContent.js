@@ -180,9 +180,9 @@ function TermContent() {
           <address>
             Frebson Gym
             <br />
-            Email: contact@Frebsongym.com
+            Email: frebson.ivs@gmail.com
             <br />
-            Phone: (123) 456-7890
+            Phone: 08034947725
             <br />
           </address>
         </div>
