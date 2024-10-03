@@ -2,23 +2,22 @@ import React from "react";
 import Sidebar from "../Sidebar";
 
 function TermContent() {
-  const sections = [
+const sections = [
     { id: "introduction", title: "Introduction" },
-    { id: "Information we collect", title: "Information we collect" },
-    {
-      id: "How we use your information",
-      title: "How we use your information ",
-    },
-    { id: "Sharing your Information", title: "Sharing your Information" },
-    { id: "Data Security", title: "Data Security" },
-    { id: "Non Refund Policy", title: "Non Refund Policy" },
-    { id: "Your Choices", title: "Your Choices" },
-    { id: "Children's Privacy", title: "Children's Privacy" },
-    {
-      id: "Changes to This Privacy Policy",
-      title: "Changes to This Privacy Policy",
-    },
-    { id: "Contact Us", title: "Contact Us" },
+    { id: "definitions", title: "Definitions" },
+    { id: "account", title: "Account Registration and Security" },
+    { id: "access", title: "Access Control" },
+    { id: "membership", title: "Membership Management" },
+    { id: "session", title: "Session History" },
+    { id: "payment", title: "Payment Processing" },
+    { id: "community", title: "Community" },
+    { id: "notifications", title: "Notifications" },
+    { id: "privacy", title: "Privacy Policy" },
+    { id: "liability", title: "Limitation of Liability" },
+    { id: "modifications", title: "Modifications" },
+    { id: "termination", title: "Termination" },
+    { id: "law", title: "Governing Law" },
+    { id: "contact", title: "Contact Information" },
   ];
 
   return (
@@ -28,151 +27,155 @@ function TermContent() {
         <div id="introduction" className="section">
           <h2>1. Introduction</h2>
           <p>
-            Welcome to Frebson Gym (“we,” “us,” “our”). This Privacy Policy
-            explains how we collect, use, disclose, and safeguard your
-            information when you use the Frebson Gym App (“App”). By using the
-            App, you consent to the data practices described in this policy.
+            Welcome to the Frebson Gym App ("App"). By using the App, you agree
+            to comply with and be bound by the following terms and conditions
+            ("Terms"). Please review these Terms carefully. If you do not agree
+            to these Terms, you must not use the App.
           </p>
         </div>
 
-        <div id="Information we collect" className="section">
-          <h2>2. Information we collect</h2>
+        <div id="definitions" className="section">
+          <h2>2. Definitions</h2>
           <ul>
             <li>
-              {" "}
-              Personal Information: We collect personal information that you
-              provide directly to us when you register for an account, make
-              payments, or communicate with us. This may include your name,
-              email address, phone number, payment details, and membership
-              information.
+              <strong>Users:</strong> refers to any individual who uses the App.
             </li>
             <li>
-              Usage Data: We automatically collect data about your interactions
-              with the App, including your IP address, device type, operating
-              system, and browsing activity.
+              <strong>Administrator:</strong> refers to gym staff with access to
+              the admin dashboard.
             </li>
             <li>
-              Location Data: With your consent, we may collect location data to
-              provide location-based services, such as access to gym facilities.
+              <strong>Membership:</strong> refers to the subscription or access
+              package purchased by the User.
             </li>
           </ul>
         </div>
 
-        <div id="How we use your information" className="section">
-          <h2>3. How we use your information</h2>
+        <div id="account" className="section">
+          <h2>3. Account Registration and Security</h2>
           <ol>
             <li>
-              To Provide Services: We use your information to manage your
-              membership, process payments, provide access to the gym, and
-              maintain session history.
+              To use the App, you must register an account with Frebson Gym and
+              provide accurate and complete information.
             </li>
             <li>
-              To Communicate with You: We may use your contact information to
-              send you notifications, updates, and promotional materials related
-              to the App and gym services.
+              You are responsible for maintaining the confidentiality of your
+              account information, including your username and password.
             </li>
             <li>
-              To Improve the App: We use usage data to enhance the
-              functionality, performance, and user experience of the App.
-            </li>
-            <li>
-              {" "}
-              To Comply with Legal Obligations: We may use or disclose your
-              information as required by law or to enforce our terms and
-              conditions.
+              You must notify Frebson Gym immediately of any unauthorized use of
+              your account or any other breach of security.
             </li>
           </ol>
         </div>
 
-        <div id="Sharing your Information" className="section">
-          <h2>4. Sharing your Information </h2>
+        <div id="access" className="section">
+          <h2>4. Access Control</h2>
           <ul>
             <li>
-              {" "}
-              Service Providers: We may share your information with third-party
-              service providers who perform services on our behalf, such as
-              payment processing, data analytics, and communication services.
+              Access to the gym facility is granted through the App via QR code
+              scanning.
             </li>
-            <li>
-              Legal Requirements: We may disclose your information if required
-              to do so by law, regulation, or legal process.
-            </li>
-            <li>
-              Business Transfers: In the event of a merger, acquisition, or sale
-              of all or a portion of our business, your information may be
-              transferred as part of that transaction.
-            </li>
+            <li>Access will only be granted if your Membership is active.</li>
+            <li>You must log in to the App before using the QR scanner.</li>
+            <li>If your Membership is inactive, access will be denied.</li>
           </ul>
         </div>
 
-        <div id="Data Security" className="section">
-          <h2>5. Data Security </h2>
+        <div id="membership" className="section">
+          <h2>5. Membership Management</h2>
           <p>
-            We implement reasonable administrative, technical, and physical
-            measures to protect your information from unauthorized access, use,
-            or disclosure. However, no system is completely secure, and we
-            cannot guarantee absolute security.
+            You can view your Membership details, including expiration dates,
+            within the App.
           </p>
         </div>
 
-        <div id="Non Refund Policy" className="section">
-          <h2>6. Non Refund Policy</h2>
-          <ul>
-            <li>
-              {" "}
-              No Refunds: All payments made to the App are non-refundable. 
-              This includes but is not limited to subscription fees, one-time purchases, and any other charges associated with the use of the App.
-            </li>
-            <li>
-              Subscription Cancellations: You may cancel your subscription at any time. Upon cancellation, your access to premium features will
-               continue until the end of the current billing cycle. No refunds, partial or otherwise, will be issued for any remaining subscription period.
-            </li>
-          </ul>
-        </div>
-
-        <div id="Your Choices" className="section">
-          <h2>7. Your Choices</h2>
-          <ul>
-            <li>
-              {" "}
-              Access and Update: You can access and update your personal
-              information through the App settings or by contacting us directly.
-            </li>
-            <li>
-              Opt-Out: You may opt out of receiving promotional communications
-              by following the unsubscribe instructions in the emails or by
-              contacting us.
-            </li>
-            <li>
-              Location Data: You can manage your location data preferences
-              through your device settings.
-            </li>
-          </ul>
-        </div>
-
-        <div id="Children's Privacy" className="section">
-          <h2>8. Children's Privacy</h2>
+        <div id="session" className="section">
+          <h2>6. Session History</h2>
           <p>
-            The App is not intended for children under the age of 13. We do not
-            knowingly collect personal information from children under 13. If we
-            become aware that we have collected such information, we will take
-            steps to delete it.
+            The App maintains a record of your gym session history. You can view
+            your session history in the form of a calendar matrix within the
+            App.
           </p>
         </div>
 
-        <div id="Changes to This Privacy Policy" className="section">
-          <h2>9. Changes to This Privacy Policy</h2>
+        <div id="payment" className="section">
+          <h2>7. Payment Processing</h2>
           <p>
-            We may update this Privacy Policy from time to time. We will notify
-            you of any significant changes by posting the updated policy in the
-            App and updating the effective date. Your continued use of the App
-            after such changes constitutes your acceptance of the revised
-            policy.
+            You may make payments directly through the App for membership
+            renewals and other services.
+          </p>
+          <ul>
+            <li>The App supports multiple payment methods.</li>
+            <li>All payment transactions are processed securely.</li>
+          </ul>
+        </div>
+
+        <div id="community" className="section">
+          <h2>8. Community</h2>
+          <p>
+            The App includes real-time chat functionality for users to send and
+            receive messages.
+          </p>
+        </div>
+
+        <div id="notifications" className="section">
+          <h2>9. Notifications</h2>
+          <p>
+            Administrators may send broadcast notifications for important
+            updates. You will receive in-app notifications for membership
+            renewals, session reminders, and other relevant information. Push
+            notifications may be used for urgent updates and alerts.
+          </p>
+        </div>
+
+        <div id="privacy" className="section">
+          <h2>10. Privacy Policy</h2>
+          <p>
+            Your use of the App is also governed by our Privacy Policy, which
+            outlines how we collect, use, and protect your personal information.
+          </p>
+        </div>
+
+        <div id="liability" className="section">
+          <h2>11. Limitation of Liability</h2>
+          <p>
+            Frebson Gym is not liable for any indirect, incidental, or
+            consequential damages arising from the use of the App or access to
+            the gym facility. We do not guarantee uninterrupted or error-free
+            access to the App.
+          </p>
+        </div>
+
+        <div id="modifications" className="section">
+          <h2>12. Modifications</h2>
+          <p>
+            Frebson Gym reserves the right to modify these Terms at any time.
+            Changes will be effective immediately upon posting on the App.
+            Continued use of the App following any changes constitutes
+            acceptance of the revised Terms.
+          </p>
+        </div>
+
+        <div id="termination" className="section">
+          <h2>13. Termination</h2>
+          <p>
+            Frebson Gym reserves the right to suspend or terminate your access
+            to the App if you violate these Terms or for any other reason deemed
+            appropriate.
+          </p>
+        </div>
+
+        <div id="law" className="section">
+          <h2>14. Governing Law</h2>
+          <p>
+            These Terms are governed by and construed in accordance with the
+            laws of [Insert Jurisdiction].
           </p>
         </div>
 
         <div id="contact" className="section">
-          <h2>10. Contact Information</h2>
+          <h2>15. Contact Information</h2>
           <p>
             If you have any questions or concerns about these Terms, please
             contact us at:
